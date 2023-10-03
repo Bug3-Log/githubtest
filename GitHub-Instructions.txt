@@ -1,0 +1,50 @@
+git diff  = to track previous changes and see what was changed too
+git -m = to message 
+git commit -m "Desired Message" = to commit a saved or modified code or  file (Unstaged) 
+git commit -a -m "Desired Message" = to stage and commit a saved or modified code or file
+git add = to add file e.g git add newfile.txt or track a file
+git log = to get the git history of all commit made 
+git status = to see status of file whether its committed or not and the branch it is in
+git --version = to get git version 
+git -commit -b main = to create a branch called "Main" or any desired branch name. lets say sub folder
+git rm --cached filename.txt = its used to delete a file from git (rm means remove)
+git clone link.com = this is to clone or copy into  your terminals files in a particular github repo
+git init - to initialize
+
+HOT TO CLONE GITHUB TO YOUR LOCAL REPO
+After installation
+On windows >>
+Create a folder and right click... click on open with Gitbash 
+When open then type in 
+git clone githublink.com 
+done 
+
+the clonned docs are located in the created folder
+
+HOW TO EDIT IN LOCAL REPO AND PUSH TO GITHUB
+Go to the folder the file is located in, then right click then click open with Gitbash 
+When done 
+check status 
+git status >> it will show untracked file (if the file you want to upload isnt there or you
+recently edited.
+git add .>> here you add all the file in the folder automatically
+git commit -m "Message" >> Making a change, of which when done all is done.
+then you need to push it to github to kknow "Hei something has been uploaded or something had been changed"
+A log in popup will show , you connect or login to github
+you will get this msg 
+
+" Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 288 bytes | 96.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Bug3-Log/githubtest.git
+   1d103e5..16e0131  main -> main
+
+"
+
+Then go to github refresh the page , you will see a new file is added to your repo.
+ 
+
+
