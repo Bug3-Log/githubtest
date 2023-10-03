@@ -24,3 +24,6 @@ Some important commands while using git
 
 11. git clone link.com = this is to clone or copy into  your terminals files in a particular github repo
 
+12. git init  to initialize
+
+
